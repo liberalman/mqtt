@@ -1,0 +1,17 @@
+package o2;
+
+message Header {
+required uint32 type = 1;
+required uint32 length = 2;
+}
+message Body {
+optional uint32 fromUserId = 1;
+optional uint32 toUserId = 2;
+optional string content = 3;
+optional bytes buffer = 4;
+optional int32 second = 5;
+}
+message O2Msg {
+required Header header = 1;
+required Body body = 2;
+}

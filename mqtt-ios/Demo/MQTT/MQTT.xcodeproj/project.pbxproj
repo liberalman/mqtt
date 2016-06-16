@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D921EB51BD1F42400007179 /* libProtocolBuffers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D921EB41BD1F42400007179 /* libProtocolBuffers.a */; };
+		B5BFBA7E1920D2BF0020FF7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BFBA7D1920D2BF0020FF7A /* UIKit.framework */; };
+		B5BFBA801920D2BF0020FF7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BFBA7F1920D2BF0020FF7A /* Foundation.framework */; };
+		B5BFBA821920D2BF0020FF7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BFBA811920D2BF0020FF7A /* CoreGraphics.framework */; };
+		B5BFBA881920D2BF0020FF7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5BFBA861920D2BF0020FF7A /* InfoPlist.strings */; };
+		B5BFBA8A1920D2BF0020FF7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BFBA891920D2BF0020FF7A /* main.m */; };
+		B5BFBA8E1920D2BF0020FF7A /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BFBA8D1920D2BF0020FF7A /* BIDAppDelegate.m */; };
+		B5BFBA901920D2BF0020FF7A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B5BFBA8F1920D2BF0020FF7A /* Default.png */; };
+		B5BFBA921920D2BF0020FF7A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5BFBA911920D2BF0020FF7A /* Default@2x.png */; };
+		B5BFBA941920D2BF0020FF7A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5BFBA931920D2BF0020FF7A /* Default-568h@2x.png */; };
+		B5BFBA971920D2BF0020FF7A /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BFBA961920D2BF0020FF7A /* BIDViewController.m */; };
+		B5BFBA9A1920D2BF0020FF7A /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5BFBA981920D2BF0020FF7A /* BIDViewController.xib */; };
+		B5BFBAAE1920D32B0020FF7A /* libMQTTKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BFBAA91920D30B0020FF7A /* libMQTTKit.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5BFBAA81920D30B0020FF7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5BFBAA01920D30B0020FF7A /* MQTTKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 93EEBC981816CAB00055100D;
+			remoteInfo = MQTTKit;
+		};
+		B5BFBAAA1920D30B0020FF7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5BFBAA01920D30B0020FF7A /* MQTTKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 93EEBCA81816CAB00055100D;
+			remoteInfo = MQTTKitTests;
+		};
+		B5BFBAAC1920D31F0020FF7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5BFBAA01920D30B0020FF7A /* MQTTKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 93EEBC971816CAB00055100D;
+			remoteInfo = MQTTKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D921EB41BD1F42400007179 /* libProtocolBuffers.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libProtocolBuffers.a; path = "../../../Library/Developer/Xcode/DerivedData/UUChatTableView-aejvilhvrhkmvjcpoavvucblzssk/Build/Products/Debug-iphoneos/libProtocolBuffers.a"; sourceTree = "<group>"; };
+		B5BFBA791920D2BF0020FF7A /* MQTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5BFBA7D1920D2BF0020FF7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B5BFBA7F1920D2BF0020FF7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5BFBA811920D2BF0020FF7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5BFBA851920D2BF0020FF7A /* MQTT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MQTT-Info.plist"; sourceTree = "<group>"; };
+		B5BFBA871920D2BF0020FF7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5BFBA891920D2BF0020FF7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5BFBA8B1920D2BF0020FF7A /* MQTT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MQTT-Prefix.pch"; sourceTree = "<group>"; };
+		B5BFBA8C1920D2BF0020FF7A /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		B5BFBA8D1920D2BF0020FF7A /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		B5BFBA8F1920D2BF0020FF7A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B5BFBA911920D2BF0020FF7A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B5BFBA931920D2BF0020FF7A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B5BFBA951920D2BF0020FF7A /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		B5BFBA961920D2BF0020FF7A /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		B5BFBA991920D2BF0020FF7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		B5BFBAA01920D30B0020FF7A /* MQTTKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MQTTKit.xcodeproj; path = "MQTT/MQTTKit-master/MQTTKit.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5BFBA761920D2BF0020FF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D921EB51BD1F42400007179 /* libProtocolBuffers.a in Frameworks */,
+				B5BFBAAE1920D32B0020FF7A /* libMQTTKit.a in Frameworks */,
+				B5BFBA7E1920D2BF0020FF7A /* UIKit.framework in Frameworks */,
+				B5BFBA801920D2BF0020FF7A /* Foundation.framework in Frameworks */,
+				B5BFBA821920D2BF0020FF7A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5BFBA6E1920D2BF0020FF7A = {
+			isa = PBXGroup;
+			children = (
+				B5BFBAA01920D30B0020FF7A /* MQTTKit.xcodeproj */,
+				B5BFBA831920D2BF0020FF7A /* MQTT */,
+				B5BFBA7C1920D2BF0020FF7A /* Frameworks */,
+				B5BFBA7A1920D2BF0020FF7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5BFBA7A1920D2BF0020FF7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5BFBA791920D2BF0020FF7A /* MQTT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5BFBA7C1920D2BF0020FF7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D921EB41BD1F42400007179 /* libProtocolBuffers.a */,
+				B5BFBA7D1920D2BF0020FF7A /* UIKit.framework */,
+				B5BFBA7F1920D2BF0020FF7A /* Foundation.framework */,
+				B5BFBA811920D2BF0020FF7A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5BFBA831920D2BF0020FF7A /* MQTT */ = {
+			isa = PBXGroup;
+			children = (
+				B5BFBA8C1920D2BF0020FF7A /* BIDAppDelegate.h */,
+				B5BFBA8D1920D2BF0020FF7A /* BIDAppDelegate.m */,
+				B5BFBA951920D2BF0020FF7A /* BIDViewController.h */,
+				B5BFBA961920D2BF0020FF7A /* BIDViewController.m */,
+				B5BFBA981920D2BF0020FF7A /* BIDViewController.xib */,
+				B5BFBA841920D2BF0020FF7A /* Supporting Files */,
+			);
+			path = MQTT;
+			sourceTree = "<group>";
+		};
+		B5BFBA841920D2BF0020FF7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5BFBA851920D2BF0020FF7A /* MQTT-Info.plist */,
+				B5BFBA861920D2BF0020FF7A /* InfoPlist.strings */,
+				B5BFBA891920D2BF0020FF7A /* main.m */,
+				B5BFBA8B1920D2BF0020FF7A /* MQTT-Prefix.pch */,
+				B5BFBA8F1920D2BF0020FF7A /* Default.png */,
+				B5BFBA911920D2BF0020FF7A /* Default@2x.png */,
+				B5BFBA931920D2BF0020FF7A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5BFBAA11920D30B0020FF7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5BFBAA91920D30B0020FF7A /* libMQTTKit.a */,
+				B5BFBAAB1920D30B0020FF7A /* MQTTKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5BFBA781920D2BF0020FF7A /* MQTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5BFBA9D1920D2BF0020FF7A /* Build configuration list for PBXNativeTarget "MQTT" */;
+			buildPhases = (
+				B5BFBA751920D2BF0020FF7A /* Sources */,
+				B5BFBA761920D2BF0020FF7A /* Frameworks */,
+				B5BFBA771920D2BF0020FF7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5BFBAAD1920D31F0020FF7A /* PBXTargetDependency */,
+			);
+			name = MQTT;
+			productName = MQTT;
+			productReference = B5BFBA791920D2BF0020FF7A /* MQTT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5BFBA701920D2BF0020FF7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = hzfuji_mac_002;
+			};
+			buildConfigurationList = B5BFBA731920D2BF0020FF7A /* Build configuration list for PBXProject "MQTT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5BFBA6E1920D2BF0020FF7A;
+			productRefGroup = B5BFBA7A1920D2BF0020FF7A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B5BFBAA11920D30B0020FF7A /* Products */;
+					ProjectRef = B5BFBAA01920D30B0020FF7A /* MQTTKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B5BFBA781920D2BF0020FF7A /* MQTT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B5BFBAA91920D30B0020FF7A /* libMQTTKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMQTTKit.a;
+			remoteRef = B5BFBAA81920D30B0020FF7A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B5BFBAAB1920D30B0020FF7A /* MQTTKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MQTTKitTests.xctest;
+			remoteRef = B5BFBAAA1920D30B0020FF7A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5BFBA771920D2BF0020FF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5BFBA881920D2BF0020FF7A /* InfoPlist.strings in Resources */,
+				B5BFBA901920D2BF0020FF7A /* Default.png in Resources */,
+				B5BFBA921920D2BF0020FF7A /* Default@2x.png in Resources */,
+				B5BFBA941920D2BF0020FF7A /* Default-568h@2x.png in Resources */,
+				B5BFBA9A1920D2BF0020FF7A /* BIDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5BFBA751920D2BF0020FF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5BFBA8A1920D2BF0020FF7A /* main.m in Sources */,
+				B5BFBA8E1920D2BF0020FF7A /* BIDAppDelegate.m in Sources */,
+				B5BFBA971920D2BF0020FF7A /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5BFBAAD1920D31F0020FF7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MQTTKit;
+			targetProxy = B5BFBAAC1920D31F0020FF7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5BFBA861920D2BF0020FF7A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5BFBA871920D2BF0020FF7A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B5BFBA981920D2BF0020FF7A /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5BFBA991920D2BF0020FF7A /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5BFBA9B1920D2BF0020FF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/MQTT/MQTTKit-master/MQTTKit\"";
+			};
+			name = Debug;
+		};
+		B5BFBA9C1920D2BF0020FF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/MQTT/MQTTKit-master/MQTTKit\"";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5BFBA9E1920D2BF0020FF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MQTT/MQTT-Prefix.pch";
+				INFOPLIST_FILE = "MQTT/MQTT-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/MQTT/MQTTKit-master/MQTTKit\"";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5BFBA9F1920D2BF0020FF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MQTT/MQTT-Prefix.pch";
+				INFOPLIST_FILE = "MQTT/MQTT-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/MQTT/MQTTKit-master/MQTTKit\"";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5BFBA731920D2BF0020FF7A /* Build configuration list for PBXProject "MQTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BFBA9B1920D2BF0020FF7A /* Debug */,
+				B5BFBA9C1920D2BF0020FF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5BFBA9D1920D2BF0020FF7A /* Build configuration list for PBXNativeTarget "MQTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BFBA9E1920D2BF0020FF7A /* Debug */,
+				B5BFBA9F1920D2BF0020FF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5BFBA701920D2BF0020FF7A /* Project object */;
+}
