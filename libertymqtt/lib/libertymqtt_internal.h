@@ -1,15 +1,18 @@
 #ifndef LIBERTYMQTT_INTERNAL_H
 #define LIBERTYMQTT_INTERNAL_H
 
-struct libertymqtt {
-    int sock; // ¿Í»§¶ËºÍ·şÎñÆ÷±£³ÖÁ¬½ÓµÄÎÄ¼şÃèÊö·û
-    char *client_id; // ¿Í»§¶Ëid£¬È¡Ã¿¸öÊÖ»úµÄÎ¨Ò»±êÊ¶·û£¬²»ÄÜÖØ¸´
-    char *address; // µØÖ·
-    char *username; // ÓÃ»§Ãû
-    char *password; // ÃÜÂë
-    uint16_t keepalive; // ĞÄÌøÊ±³¤£¬sÎªµ¥Î»
+/**
+ * ä¿å­˜ä¸€ä¸ªå®¢æˆ·ç«¯è¿æ¥çš„æ‰€æœ‰ä¿¡æ¯
+ */
+typedef struct {
+    int sock; /**< å®¢æˆ·ç«¯å’ŒæœåŠ¡å™¨ä¿æŒè¿æ¥çš„æ–‡ä»¶æè¿°ç¬¦ */
+    char *client_id; /**< å®¢æˆ·ç«¯idï¼Œå–æ¯ä¸ªæ‰‹æœºçš„å”¯ä¸€æ ‡è¯†ç¬¦ï¼Œä¸èƒ½é‡å¤ */
+    char *address; /**< åœ°å€ */
+    char *username; /**< ç”¨æˆ·å */
+    char *password; /**< å¯†ç  */
+    uint16_t keepalive; /**< å¿ƒè·³æ—¶é•¿ï¼Œsä¸ºå•ä½ */
 #ifdef WITH_TLS
 #endif
-}
+} libertymqtt;
 
 #endif // LIBERTYMQTT_INTERNAL_H
