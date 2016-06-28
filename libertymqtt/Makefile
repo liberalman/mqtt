@@ -8,7 +8,8 @@ DIR_OBJ = ./obj
 DIR_BIN = ./bin
 TARGET = libertymqtt
 BIN_TARGET = ${DIR_BIN}/${TARGET}
-CFLAGS =  -D_DEBUG -g -Wall -I${DIR_INC} -DVERSION=\"${VERSION}\"
+CFLAGS =  -D_DEBUG -g -Wall -lrt -lpthread -I${DIR_INC} -DVERSION=\"${VERSION}\"
+#-DMEMORY_STATISTICS
 
 SRC = $(wildcard ${DIR_SRC}/*.c) $(wildcard ${DIR_SRC1}/*.c)
 $(warning ${SRC}) #打印变量SRC
@@ -16,7 +17,7 @@ OBJ = $(patsubst %.c,${DIR_OBJ}/%.o,$(notdir ${SRC}))
 $(warning ${OBJ}) #打印变量OBJ
 
 ${BIN_TARGET}:${OBJ}
-	$(CC) $(OBJ)  -o $@
+	$(CC) $(OBJ)  -o $@ $(CFLAGS)
     
 ${DIR_OBJ}/%.o:${DIR_SRC}/%.c
 	$(CC) $(CFLAGS) -c  $< -o $@
